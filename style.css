@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f1f5f8;
+    font-family: "Roboto", sans-serif;
+}
+
+#section-1 .row-1 .column-1 h1{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+#section-1 .row-1 .column-1 .dvider{
+    width: 5rem;
+    border-radius: 3px;
+    margin: 0.5rem auto 3rem;
+    border-bottom: 5px solid #5ba1d4;
+}
+
+#section-1 .row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#section-1 .row-2 .column-1{
+    width: 37rem;
+    padding: 2rem 2rem 1rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px -10px black;
+}
+
+#section-1 .row-2 .column-1 .img-container{
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #5ba1d4;
+}
+
+#section-1 .row-2 .column-1 .img-container .quotes{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #5ba1d4;
+    position: relative;
+    top: 0.5rem;
+    z-index: 1;
+}
+
+#section-1 .row-2 .column-1 .img-container .quotes img{
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 3.5px;
+    left: 0px;
+}
+
+#section-1 .row-2 .column-1 .img-container .quotes img{
+    width: 30px;
+}
+
+#section-1 .row-2 .column-1 .img-container img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: relative;
+    top: -2.2rem;
+    right: 0.5rem;
+}
+
+#section-1 .row-2 .column-1 #name{
+    margin-top: 1.5rem;
+    letter-spacing: 2px;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+#section-1 .row-2 .column-1 #job{
+    font-size: 14px;
+    color: #5ba1d4;;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+#section-1 .row-2 .column-1 #bio{
+    font-size: 14px;
+    margin-top: 1rem;
+    word-spacing: 3px;
+    line-height: 1.3rem;
+    background-color: white;
+    color: rgb(117, 125, 131);
+}
+
+#section-1 .row-2 .column-1 .btn-container{
+    margin: 1rem 0;
+    background-color: white;
+}
+
+#section-1 .row-2 .column-1 .btn-container .btn{
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: #5ba1d4;
+    background-color: white;
+}
+
+#section-1 .row-2 .column-1 .btn-container .btn:hover{
+    cursor: pointer;
+}
+
+#section-1 .row-2 .column-1 .random{
+    color: #5ba1d4;
+    border-radius: 3px;
+    padding: 0.2rem 0.5rem;
+    text-transform: capitalize;
+    border: 2px solid #5ba1d4;
+}
+
+#section-1 .row-2 .column-1 .random:hover{
+    cursor: pointer;
+    animation: btn-hover 0.4s ease-in 0s 1 normal forwards;
+}
+
+@keyframes btn-hover{
+    from{
+        background-color: #f1f5f8;
+    }
+    to{
+        background-color: #5ba1d4;
+        color: black;
+    }
+}
